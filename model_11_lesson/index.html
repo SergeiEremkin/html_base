@@ -5,66 +5,63 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="header center">
+    <div class="header">
         <div class="header_item_nav">
-            <img class="logo" src="img/logo.png" alt="logo">
-            <img class="search_shortcut" src="img/search_shortcut.svg" alt="search_shortcut">
-            <img class="menu_buttons" src="img/menu_buttons.svg" alt="menu_buttons">
+            <a class="header-logo" href="#"><img src="img/logo.png" alt="logo"></a>
+            <a class="header-search-shortcut" href="#"><img src="img/search_shortcut.svg" alt="search_shortcut"></a>
+            <a class="header-menu-buttons" href="#"><img src="img/menu_buttons.svg" alt="menu_buttons"></a>
         </div>
         <div class="header_item_title">
             <img class="man_title" src="img/man_title.png" alt="man_title">
-            <img class="rectangle_title" src="img/rectangle_title.svg" alt="rectangle_title">
-            <p class="title">THE BRAND <span class="lux">OF LUXERIOUS</span> <span class="fashion">FASHION</span>
-            </p>
+            <div class="banner">
+                <h1 class="banner-title">THE BRAND</h1>
+                <h3 class="banner-subtitle"> <span class="lux">OF LUXERIOUS</span> <span class="fashion">FASHION</span>
+                </h3>
+            </div>
         </div>
     </div>
-
     <div class="category">
-        <div class="catagory_item">
-            <img class="women_category" src="img/women_category.png" alt="women_category">
-            <p class="text_category">30% OFF <span class="span_category">FOR WOMEN</span></p>
+        <div class="catagory-women">
+            <div class="category-bg">
+                <p class="text-category">30% OFF</p>
+                <h3 class="title-category">FOR WOMEN</h3>
+            </div>
         </div>
-        <div class="catagory_item">
-            <img class="man_category" src="img/man_category.png" alt="man_category">
-            <p class="text_category">HOT DEAL<span class="span_category">FOR MEN</span></p>
+        <div class="catagory-man">
+            <div class="category-bg">
+                <p class="text-category">HOT DEAL</p>
+                <h3 class="title-category">FOR MEN</h3>
+            </div>
         </div>
-        <div class="catagory_item">
-            <img class="kid_category" src="img/kid_category.png" alt="kid_category">
-            <p class="text_category">NEW ARRIVALS<span class="span_category">FOR KIDS</span></p>
+        <div class="catagory-kid">
+            <div class="category-bg">
+                <p class="text-category">NEW ARRIVALS</p>
+                <h3 class="title-category">FOR KIDS</h3>
+            </div>
         </div>
-        <div class="catagory_item">
-            <img class="accesories" src="img/accesories.png" alt="accesories">
-            <p class="text_category_big">LUXIROUS & TRENDY<span class="span_category">ACCESORIES</span></p>
+        <div class="catagory_accesories">
+            <div class="category-bg">
+                <p class="text-category">LUXIROUS & TRENDY</p>
+                <h3 class="title-category">ACCESORIES</h3>
+            </div>
         </div>
     </div>
-    <div class="content_title_item">
+    <div class="content-central">
         <h3 class="content_title">Fetured Items</h3>
         <p class="content_text">Shop for items based on what we featured in this week</p>
+
     </div>
     <div class="content">
-
-        <div class="content_items">
-            <img class="item_content" src="img/item_1.jpg" alt="item_1">
-            <div class="title_and_price">
-                <p class="name">ELLERY X M'O CAPSULE</p>
-                <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
-                    of cool
-                    Kym Ellery teams up with Moda Operandi.</p>
-                <p class="price">$52.00</p>
-            </div>
-
-        </div>
-        <div class="content_items_2">
-            <div class="rectangle_item">
-                <img class="item_content_2" src="img/item_2.png" alt="item_2">
-            </div>
-
-
-            <div class="title_and_price">
+        <div class="content-item">
+            <img class="img-content" src="img/item_1.jpg" alt="item_1">
+            <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool
@@ -72,9 +69,11 @@
                 <p class="price">$52.00</p>
             </div>
         </div>
-        <div class="content_items">
-            <img class="item_content" src="img/item_3.png" alt="item_3">
-            <div class="title_and_price">
+        <div class="content-item">
+            <div class="bg-font-content">
+                <img class="img-content" src="img/item_2.png" alt="item_2">
+            </div>
+            <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool
@@ -82,9 +81,9 @@
                 <p class="price">$52.00</p>
             </div>
         </div>
-        <div class="content_items">
-            <img class="item_content" src="img/item_4.png" alt="item_4">
-            <div class="title_and_price">
+        <div class="content-item">
+            <img class="img-content" src="img/item_3.png" alt="item_3">
+            <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool
@@ -92,9 +91,9 @@
                 <p class="price">$52.00</p>
             </div>
         </div>
-        <div class="content_items">
-            <img class="item_content" src="img/item_5.png" alt="item_5">
-            <div class="title_and_price">
+        <div class="content-item">
+            <img class="img-content" src="img/item_4.png" alt="item_4">
+            <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool
@@ -102,9 +101,19 @@
                 <p class="price">$52.00</p>
             </div>
         </div>
-        <div class="content_items">
-            <img class="item_content" src="img/item_6.png" alt="item_6">
-            <div class="title_and_price">
+        <div class="content-item">
+            <img class="img-content" src="img/item_5.png" alt="item_5">
+            <div class="card-item">
+                <p class="name">ELLERY X M'O CAPSULE</p>
+                <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
+                    of cool
+                    Kym Ellery teams up with Moda Operandi.</p>
+                <p class="price">$52.00</p>
+            </div>
+        </div>
+        <div class="content-item">
+            <img class="img-content" src="img/item_6.png" alt="item_6">
+            <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
                     of cool
@@ -113,10 +122,13 @@
             </div>
         </div>
     </div>
-    <div class="end_button">
-        <img class="end_rectangle_button" src="img/end_rectangle_button.svg" alt="end_rectangle_button">
-        <p class="end_text">Browse All Product</p>
+    <div class="buttons">
+        <button type="button" class="btn-browse">Browse All Product</button>
     </div>
+
+
+
+
 
 </body>
 
