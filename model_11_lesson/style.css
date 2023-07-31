@@ -13,10 +13,10 @@ body {
 }
 
 .center {
-    /* padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px); */
-    width: 1600px;
-	margin:0 auto
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+    /* width: 1600px;
+	margin:0 auto */
 }
 
 .header {
@@ -240,7 +240,7 @@ body {
 }
 
 .header_item_title {
-    gap: 64px;
+    gap: 39px;
 }
 
 .man_title {
@@ -249,24 +249,23 @@ body {
 
 .banner {
     border-left: 12px solid #F16D7F;
-   
 }
 
 .banner-title {
-    padding-left: 16px;
+    padding-left: 5px;
     font-size: 44px;
-      
+    
 }
 
 .banner-subtitle {
-    padding-left: 16px;
+    padding-left: 5px;
     font-size: 24px;
-    font-weight: 700;
+    
 }
 
 .fashion {
     color: #F16D7F;
-    font-weight: 700;
+    
     font-size: 24px;     
 }
 
