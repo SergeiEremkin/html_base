@@ -39,7 +39,30 @@ body {
 }
 
 .header-menu-buttons {
+    
     margin-left: 859px;    
+}
+
+.menu-buttons-image {
+    position: relative;
+}
+
+.item-count::after {
+    content: "5";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #F16D7F;
+    border-radius:50% ;
+    background-color: #F16D7F;
+    position: absolute;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    top: 13px;
+    right: 231px
 }
 
 .header-menu-buttons-mobile {
@@ -52,7 +75,6 @@ body {
 }
 
 .banner-title {
-    
     font-size: 48px;
     font-weight: 900;   
 }
@@ -206,7 +228,6 @@ body {
     gap: 11px    
 }
 
-
 .card-item {
     background-color: #F8F8F8;;
     padding-top: 24px;
@@ -255,6 +276,178 @@ body {
     justify-content: center;
 } 
 
+.footer {
+    margin-top: 95px;
+}
+
+.footer-adv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #222224;
+    height: 341px;
+    gap: 30px;
+}
+
+.adv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 360px
+}
+
+
+
+.adv-title {
+    color: #FBFBFB;
+    font-family: Lato;
+    font-size: 19.96px;
+    font-weight: 400;
+    padding-top: 28px;
+}
+
+.title_2 {
+    padding-top: 20px
+}
+
+.adv-text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-weight: 300;
+    padding-top: 16px;
+    width: 300px
+}
+
+.footer-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(img/subscribe_font.png);
+    height: 448px;
+}
+
+.bg-font-white {
+    position: absolute;
+    background-color: #F4F4F4B2 ;
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe_1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 97px;
+    left: 228px;
+
+}
+
+.subscribe-text {
+    padding-top: 30px;
+    color: #222224;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 359px;
+}
+
+.sub-text-italic {
+    font-style: italic;
+}
+
+.subscribe_2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    right: 230px
+}
+
+.subscribe-header {
+    color: #222224;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%; /* 40.128px */
+}
+
+.subscribe-header-small {
+    
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 167.2%;
+}
+
+.email_form {
+    padding-top: 39px;
+    position: relative;
+    display: flex;
+    gap: 0px;
+    
+}
+
+.email-input {
+    position: absolute;
+    left: 22px;
+    top: 55px;
+    opacity: 0.671;
+}
+
+.input-sub {
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 655px;
+    background-color:#222224;
+    height: 79px;
+}
+
+.social_2 {
+    display: flex;
+    gap: 7px;
+}
+
+.rights {
+    color: #FBFBFB;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo {
+    border: 1px solid  #FFF;
+    padding: 8px;
+    background-color: #FFF
+}
+.facebook-logo {
+    padding-left: 11px;
+    padding-right: 12px;
+}
+
+.pinterest-logo {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+
+.instagram-logo {
+    padding-top: 7px;    
+}
+
 @media (max-width: 768px) {
 
 .header {
@@ -266,9 +459,28 @@ body {
 }
 
 .header-menu-buttons {
+       
     margin-left: 424px;
     margin-top: 31px;
     margin-bottom: 20px ; 
+}
+
+.item-count::after {
+    content: "5";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 19px;
+    height: 19px;
+    border: 1px solid #F16D7F;
+    border-radius:50% ;
+    background-color: #F16D7F;
+    position: absolute;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 400;
+    top: 17px;
+    right: 32px
 }
 
 .header_item_title {
@@ -339,6 +551,104 @@ body {
     grid-template-columns: 360px 360px;
     gap: 16px;
 }
+
+.footer {
+    margin-top: 64px;
+}
+
+.footer-adv {
+    flex-direction: column;
+    height: 610px;
+    gap: 48px;
+}
+
+.title_2 {
+    padding-top: 20px
+}
+
+.adv-text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 13.972px;
+    font-weight: 300;
+    padding-top: 16px;
+    width: 300px
+}
+
+.footer-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(img/font_768.png);
+    height: 693px;
+}
+
+.bg-font-white {
+    position: absolute;
+    background-color: #F4F4F4B2 ;
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe_1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 64px;
+    left: 228px;
+
+}
+
+.subscribe-text {
+    padding-top: 30px;
+    color: #222224;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    width: 359px;
+}
+
+.sub-text-italic {
+    font-style: italic;
+}
+
+.subscribe_2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 337px;
+    right: 190px
+}
+
+.email_form {
+    padding-top: 39px;
+    position: relative;
+    display: flex;
+    gap: 0px; 
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 315px;
+    background-color:#222224;
+    height: 79px;
+}
+
+.instagram-logo {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+    padding-right: 10px; 
+    background-color: #F16D7F;
+    border:#F16D7F;  
+}
+
 }
 
 @media (max-width: 320px) {
@@ -461,7 +771,159 @@ body {
     height: 100%;
 }
 
-       
+.footer {
+    margin-top: 96px;
+}
+
+.footer-adv {
+    flex-direction: column;
+    height: 610px;
+    gap: 48px;
+}
+
+.title_2 {
+    padding-top: 20px
+}
+
+.adv-text {
+    color: #FBFBFB;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 300;
+    padding-top: 16px;
+    width: 240px
+}
+
+.footer-subscribe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-image: url(img/font_320.png);
+    height: 550px;
+}
+
+.bg-font-white {
+    position: absolute;
+    background-color: #F4F4F4B2 ;
+    width: 100%;
+    height: 100%;
+}
+
+.subscribe_1 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 64px;
+    left: 10px;
+
+}
+
+.subscribe-text {
+    padding-top: 30px;
+    color: #222224;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    width: 300px;
+}
+
+.sub-text-italic {
+    font-style: italic;
+}
+
+.subscribe_2 {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 317px;
+    left: 150px
+}
+
+.subscribe-header {
+    color: #222224;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 167.2%; /* 40.128px */
+}
+
+.subscribe-header-small {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 167.2%;
+    width: 200px
+}
+
+.email_form {
+    padding-top: 39px;
+    position: relative;
+    display: flex;
+    gap: 0px; 
+}
+
+.rec-big {
+    width:170px;
+}
+
+.rec-small {
+    width: 70px;
+}
+
+.email-input {
+    position: absolute;
+    left: 20px;
+    top: 47px;
+    font-size: 14px;
+    opacity: 0.671;
+}
+
+.input-sub {
+    position: absolute;
+    top: 48px;
+    right: 10px;
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.email_form {
+    padding-top: 39px;
+    position: relative;
+    display: flex;
+    gap: 0px; 
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+    background-color:#222224;
+    height: 143px;
+    flex-direction: column-reverse;
+}
+
+
+
+.social_2 {
+    padding-top: 20px;  
+}
+
+.instagram-logo {
+    padding-top: 8px;
+    padding-bottom: 9px;
+    padding-left: 11px;
+    padding-right: 10px; 
+    background-color: #F16D7F;
+    border:#F16D7F;
+}       
 }
 
     
