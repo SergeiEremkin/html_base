@@ -16,7 +16,8 @@
         <div class="header_item_nav">
             <a class="header-logo" href="#"><img src="img/logo.png" alt="logo"></a>
             <a class="header-search-shortcut" href="#"><img src="img/search_shortcut.svg" alt="search_shortcut"></a>
-            <a class="header-menu-buttons item-count" href="#"><img src="img/menu_buttons.svg" alt="menu_buttons"></a>
+            <a class="header-menu-buttons item-count" href="#"><img class="image-menu-buttons"
+                    src="img/menu_buttons.svg" alt="menu_buttons"></a>
             <a class="header-menu-buttons-mobile" href="#"><img src="img/menu-mobile.svg"
                     alt="header-menu-buttons-mobile"></a>
         </div>
@@ -61,7 +62,11 @@
     </div>
     <div class="content">
         <div class="content-item">
-            <img class="img-content" src="img/item_1.jpg" alt="item_1">
+            <div class="img-block block-1">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
+            </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -71,12 +76,12 @@
             </div>
         </div>
         <div class="content-item">
-            <div class="bg-font-content-pink">
-                <img class="img-content-pink" src="img/item_2.png" alt="item_2">
-                <div class="bg-font-dark"></div>
-                <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+            <div class="bg-font-pink">
+                <div class="img-block block-2"> </div>
+                <div class="hover-block hover-2" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
             </div>
-
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -86,7 +91,11 @@
             </div>
         </div>
         <div class="content-item">
-            <img class="img-content" src="img/item_3.png" alt="item_3">
+            <div class="img-block block-3">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
+            </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -96,7 +105,11 @@
             </div>
         </div>
         <div class="content-item">
-            <img class="img-content" src="img/item_4.png" alt="item_4">
+            <div class="img-block block-4">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
+            </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -106,7 +119,11 @@
             </div>
         </div>
         <div class="content-item">
-            <img class="img-content" src="img/item_5.png" alt="item_5">
+            <div class="img-block block-5">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
+            </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -116,7 +133,11 @@
             </div>
         </div>
         <div class="content-item">
-            <img class="img-content" src="img/item_6.png" alt="item_6">
+            <div class="img-block block-6">
+                <div class="hover-block" href="#">
+                    <button class="buy_item"><img src="img/button_image.svg" alt=""> Add to Cart</button>
+                </div>
+            </div>
             <div class="card-item">
                 <p class="name">ELLERY X M'O CAPSULE</p>
                 <p class="description">Known for her sculptural takes on traditional tailoring, Australian arbiter
@@ -151,21 +172,20 @@
             </div>
         </div>
         <div class="footer-subscribe">
-            <div class="bg-font-white"></div>
-            <div class="subscribe_1">
-                <img class="subscribe-img" src="img/subscribe_img.png" alt="subscribe-img">
-                <p class="subscribe-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
-                        class="sub-text-italic">a pulvinar purus condimentum“</span></p>
-            </div>
-            <div class="subscribe_2">
-                <h3 class="subscribe-header">SUBSCRIBE</h3>
-                <p class="subscribe-header-small">FOR OUR NEWLETTER AND PROMOTION</p>
-                <div class="email_form">
-                    <img class="rec-big" src="img/rounded-rec-big.svg" alt="rounded-rec-big">
-                    <p class="email-input">Enter Your Email</p>
-                    <img class="rec-small" src="img/rounded-rec-small.svg" alt="rounded-rec-small">
-                    <p class="input-sub">Subscribe</p>
+            <div class="bg-font-white">
+                <div class="subscribe_1">
+                    <img class="subscribe-img" src="img/subscribe_img.png" alt="subscribe-img">
+                    <p class="subscribe-text">“Vestibulum quis porttitor dui! Quisque viverra nunc mi,<span
+                            class="sub-text-italic">a pulvinar purus condimentum“</span></p>
                 </div>
+                <div class="subscribe_2">
+                    <h3 class="subscribe-header">SUBSCRIBE</h3>
+                    <p class="subscribe-header-small">FOR OUR NEWLETTER AND PROMOTION</p>
+                </div>
+                <form class="subscribe-input" action="#">
+                    <input placeholder="Enter Your Email" class="email-input" type="email">
+                    <button class="input-sub" type="submit"><span class="input-sub-sumbit">Submit</span></button>
+                </form>
             </div>
         </div>
         <div class="footer-social">
